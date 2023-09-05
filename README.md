@@ -2,7 +2,7 @@
 Studiju kursa Datormācība (pamatkurss) elektroniskā klade
 
 ## 1.nodarbības ''atziņas''
-Manas Linux pirmās izzinātās komandas: 
+**Manas Linux _pirmās_ izzinātās komandas:** 
 
 
 _uname -a_
