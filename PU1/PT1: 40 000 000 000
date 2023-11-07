@@ -1,0 +1,21 @@
+  GNU nano 4.8                reizinasanas_skripts.py                           
+# Ievadiet pirmo skaitli
+skaitlis1 = int(input("Ievadiet pirmo skaitli (400000): "))
+
+# Pārbauda, vai ievadītais skaitlis1 ir pareizs
+if skaitlis1 != 400000:
+    print("Nepareizs ievadītais skaitlis. Ievadiet 400000.")
+    exit()
+
+# Ievadiet otro skaitli
+skaitlis2 = int(input("Ievadiet otro skaitli (100000): "))
+
+# Pārbauda, vai ievadītais skaitlis2 ir pareizs
+if skaitlis2 != 100000:
+    print("Nepareizs ievadītais skaitlis. Ievadiet 100000.")
+    exit()
+
+# Veic reizināšanas operāciju
+rezultats = skaitlis1 * skaitlis2
+
+# Attēlo rezultātu
