@@ -1,0 +1,113 @@
+   1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/reinchiks/RTR105
+    4  cd RTR105
+    5  mkdir nodarbiba_7nov
+    6  cd nodarbiba_7nov
+    7  sudo apt install gnuplot
+    8  sudo apt-get update -y
+    9  nano simple.1
+   10  nano simple1.gp
+   11  nano reizinasanas_skripts.py
+   12  python reizinasanas_skripts.py
+   13  git add reizinasanas_skripts.py
+   14  git commit -m "Pievienots reizināšanas kkods" 
+   15  cd
+   16  git add reizinasanas_skripts.py
+   17  cd RTR105
+   18  git add reizinasanas_skripts.py
+   19  cd nodarbiba_7nov
+   20  git add reizinasanas_skripts.py
+   21  git clone https://github.com/reinchiks/RTR105
+   22  git config --global user.name ""
+   23  git config --global user.email ""
+   24  cd
+   25  git clone https://github.com/reinchiks/RTR105
+   26  cd RTR105
+   27  cd nodarbiba_7nov
+   28  git config --global user.name "reinchiks"
+   29  git config --global user.email "strautmanisreinis@gmail.com"
+   30  git config -l
+   31  git clone https://github.com/reinchiks/RTR105
+   32  cd
+   33  git clone https://github.com/reinchiks/RTR105
+   34  cd
+   35  git clone https://github.com/reinchiks/RTR105
+   36  cd
+   37  restart
+   38  cd RTR105
+   39  git clone https://github.com/reinchiks/RTR105
+   40  git config --global user.name "reinchiks"
+   41  git config --global user.email "strautmanisreinis@gmail.com"
+   42  git config -l
+   43  git add reizinasanas_skripts.py
+   44  cd nodarbiba_7
+   45  cd nodarbiba_7nov
+   46  git add reizinasanas_skripts.py
+   47  git clone https://github.com/reinchiks/RTR105
+   48  git add reizinasanas_skripts.py
+   49  git commit -m "Pievienots reizināšanas kods" 
+   50  git commit -m "Pievienots reizināšanas kkods" 
+   51  git push reizinasanas_skripts.py
+   52  git remote add origin https://github.com/reinchiks/RTR105
+   53  git push origin master
+   54  git push origin reizinasanas_skripts.py
+   55  git init
+   56  git remote add origin https://github.com/reinchiks/RTR105
+   57  git add .
+   58  git rm --cached RTR105
+   59  -f
+   60  f
+   61  git push origin master
+   62  git remote add origin https://github.com/reinchiks/RTR105.git
+   63  git push origin master
+   64  cd
+   65  cd RTR105
+   66  git push origin master https://github.com/reinchiks/RTR105.git
+   67  cd
+   68  git push origin master https://github.com/reinchiks/RTR105.git
+   69  git config --global user.name reinchiks
+   70  git config --global user.email strautmanisreinis@gmail.com
+   71  git push origin master https://github.com/reinchiks/RTR105.git
+   72  git push origin master
+   73  cd RTR105
+   74  git config --global user.email strautmanisreinis@gmail.com
+   75  git config --global user.name reinchiks
+   76  git clone https://github.com/reinchiks/RTR105
+   77  cd RTR105
+   78  git add .
+   79  git config --global user.name reinchiks
+   80  git config --global user.email strautmanisreinis@gmail.com
+   81  git commit -m "Class_4a"
+   82  git push origin main
+   83  git add .
+   84  git push origin master
+   85  git commit -m "reizinasanas_skripts.py"
+   86  git init
+   87  git add .
+   88  git commit -m "Pievienots reizināšanas kkods" 
+   89  git remote add origin https://github.com/reinchiks/RTR105.git
+   90  git remote add origin https://github.com/reinchiks/RTR105
+   91  git push origin master
+   92  git pull origin master
+   93  git push -u origin master
+   94  git status
+   95  git remote -v
+   96  git add reizinasanas_skripts.py
+   97  cd nodarbiba_7nov
+   98  nano reizinasanas_skripts.py
+   99  history 
+  100  nano reizinasanas_skripts.py
+  101  cd nodarbiba_7nov
+  102  cd
+  103  cd RTR105
+  104  cd nodarbiba_7nov
+  105  nano reizinasanas_skripts.py
+  106  git push 
+  107  git push --set-upstream origin master
+  108  cd
+  109  exit
+  110  git remote add origin https://github.com/reinchiks/RTR105
+  111  git remote add origin https://github.com/reinchiks/RTR105.git
+  112  git clone https://github.com/reinchiks/RTR105
+  113  history
