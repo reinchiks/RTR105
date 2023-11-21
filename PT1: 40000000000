@@ -1,0 +1,9 @@
+# Ask the user to insert two numbers
+num1 = int(input("Ievadiet pirmo skaitli (e.g., 400000): "))
+num2 = int(input("Ievadiet otro skaitli (e.g., 100000): "))
+
+# Calculate the multiplication result
+rezultāts = num1 * num2
+
+# Output the result
+print("Reizināšanas rezultāts ir:", rezultāts)
