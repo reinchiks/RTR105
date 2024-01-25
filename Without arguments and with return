@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int getNumber() {
+    int num;
+    printf("Ievadiet skaitli: ");
+    scanf("%d", &num);
+    return num;
+}
+
+int main() {
+  
+    int number = getNumber();
+    printf("Jūs ievadijāt: %d\n", number);
+    return 0;
+}
