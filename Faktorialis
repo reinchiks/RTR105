@@ -1,0 +1,62 @@
+#include <stdio.h>
+
+int main() {
+    double num;
+    char data_type;
+
+    printf("Ievadiet decimāl skaitli: ");
+    scanf("%lf", &num);
+
+    printf("Izvēlieties datu tipu (c = char, i = int, l = long long): ");
+    scanf(" %c", &data_type);
+
+    switch (data_type) {
+        case 'c': {
+            char result = 1;
+            double i = 1;
+            while (i <= num) {
+                if (result * i > 127) {
+                    printf("Kļūda: Faktoriālis pārsniedz rakstzīmju limitu.\n");
+                    return 1;
+                }
+                result *= i;
+                i++;
+            }
+            printf("Faktoriālis no %.0f ir %d\n", num, result);
+            break;
+        }
+        case 'i': {
+            int result = 1;
+            double i = 1;
+            while (i <= num) {
+                if (result * i > 2147483647) {
+                    printf("Kļūda: Faktoriālis pārsniedz limitu.\n");
+                    return 1;
+                }
+                result *= i;
+                i++;
+            }
+            printf("Faktoriālis no %.0f ir %d\n", num, result);
+            break;
+        }
+        case 'l': {
+            long long result = 1;
+            double i = 1;
+            while (i <= num) {
+                if (result * i > 9223372036854775807) {
+                    printf("Kļūda: Faktoriālis pārsniedz limitu.\n");
+                    return 1;
+                }
+                result *= i;
+                i++;
+            }
+            printf("Faktoriālis no %.0f ir %lld\n", num, result);
+            break;
+        }
+        default:
+            printf("Neatbilstošs datu tips.\n");
+            break;
+    }
+
+    return 0;
+}
