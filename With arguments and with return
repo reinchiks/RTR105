@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+
+int multiply(int a, int b) {
+    return a * b;
+}
+
+int main() {
+    int num1 = 5, num2 = 4;
+    
+    int result = multiply(num1, num2);
+    printf("Skaitļu %d un %d reizinājums ir %d\n", num1, num2, result);
+    return 0;
+}
