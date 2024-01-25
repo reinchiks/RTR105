@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+void greet() {
+    printf("Sveiki! Laipni lūdzam programmas izvēlnē.\n");
+}
+
+int main() {
+    greet();
+    return 0;
+}
