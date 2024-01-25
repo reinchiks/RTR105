@@ -1,9 +1,21 @@
-# Ask the user to insert two numbers
-num1 = int(input("Ievadiet pirmo skaitli (e.g., 400000): "))
-num2 = int(input("Ievadiet otro skaitli (e.g., 100000): "))
+def get_valid_number(prompt, valid_number):
+    while True:
+        try:
+            user_input = int(input(prompt))
+            if user_input == valid_number:
+                return user_input
+            else:
+                print("Invalid input. Please enter the correct number.")
+        except ValueError:
+            print("Invalid input. Please enter a valid integer.")
 
-# Calculate the multiplication result
-rezultāts = num1 * num2
 
-# Output the result
-print("Reizināšanas rezultāts ir:", rezultāts)
+num1 = get_valid_number("Enter the first number (400000): ", 400000)
+
+
+num2 = get_valid_number("Enter the second number (100000): ", 100000)
+
+
+result = num1 * num2
+
+print("Rezultāts sareizinot", num1, "un", num2, "ir:", result)
