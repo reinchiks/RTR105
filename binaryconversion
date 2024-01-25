@@ -1,0 +1,3 @@
+num = int(input("Ievadiet naturālu skaitli: "))
+binary_representation = bin(num)[2:]
+print(f"{num} binārajā veidā ir: {binary_representation}")
