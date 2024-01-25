@@ -1,0 +1,32 @@
+def sort_elements(elements, order):
+    if order == "ascending":
+        return sorted(elements)
+    elif order == "descending":
+        return sorted(elements, reverse=True)
+    else:
+        return None
+
+numbers = [int(input("Enter the first decimal number: ")),
+           int(input("Enter the second decimal number: ")),
+           int(input("Enter the third decimal number: "))]
+
+order_preference_numbers = input("Enter the order preference (ascending/descending): ").lower()
+
+
+sorted_numbers = sort_elements(numbers, order_preference_numbers)
+if sorted_numbers:
+    print(f"The sorted sequence in {order_preference_numbers} order: {sorted_numbers}")
+else:
+    print("Invalid order preference. Please enter 'ascending' or 'descending'.")
+
+
+letters = [input("Enter the first letter: "),
+           input("Enter the second letter: "),
+           input("Enter the third letter: ")]
+
+order_preference_letters = input("Enter the order preference (alphabet/opposite): ").lowersorted_letters = sort_elements(letters, order_preference_letters)
+
+if sorted_letters:
+    print(f"The sorted sequence in {order_preference_letters} order: {''.join(sorted_letters)}")
+else:
+    print("Invalid order preference. Please enter 'alphabet' or 'opposite'.")
